@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const uri = "mongodb+srv://jhenkar695:<djtOllDTmxZGYgKy>@cluster0.vcolgra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const uri = "mongodb+srv://jhenkar695:djtOllDTmxZGYgKy@cluster0.vcolgra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 const PORT =  process.env.PORT || 3000;
 
 app.use(bodyParser.json());
