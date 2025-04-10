@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const uri = "mongodb://localhost:27017"; // Replace with your MongoDB connection string
-const PORT = 3000;
+const PORT =  process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(cors());
